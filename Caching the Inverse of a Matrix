@@ -50,6 +50,8 @@ cacheSolve <- function(x, ...) {
 x<-rbind (c(1, -1/16),c(-1/16,1))
 m<-makeCacheMatrix(x)
 m$get()
+
+#Example
         [,1]    [,2]
 [1,]  1.0000 -0.0625
 [2,] -0.0625  1.0000
